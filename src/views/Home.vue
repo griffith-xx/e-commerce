@@ -307,7 +307,327 @@
               </button>
             </div>
           </div>
-          <div class="mt-10"></div>
+          <div class="mt-10 pb-10 border-b border-[#B3B3B3]">
+            <div class="grid grid-cols-5 gap-6">
+              <div
+                v-for="i in Number(5)"
+                class="bg-white rounded-sm overflow-hidden"
+              >
+                <div class="bg-[#F5F5F5] p-12 relative">
+                  <img
+                    class="w-[175px] mx-auto"
+                    src="../assets/images/product1.png"
+                    alt="product1"
+                  />
+                  <div
+                    class="absolute bg-[#DB4444] px-2 py-0.5 text-xs font-light text-white rounded-sm top-3 left-3"
+                  >
+                    -40%
+                  </div>
+                  <div class="absolute flex flex-col gap-2 top-3 right-3">
+                    <button class="p-1 rounded-full bg-white" type="button">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="size-6"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                        />
+                      </svg>
+                    </button>
+                    <button class="p-1 rounded-full bg-white" type="button">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="size-6"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z"
+                        />
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                        />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+                <div class="mt-2">
+                  <h3 class="font-bold leading-loose">HAVIT HV-G92 Gamepad</h3>
+                  <div class="flex gap-3 mt-1">
+                    <span class="text-[#DB4444] text-sm font-medium">
+                      $120
+                    </span>
+                    <span
+                      class="text-[#808080] text-sm font-medium line-through"
+                    >
+                      $160
+                    </span>
+                  </div>
+                  <div class="flex items-center gap-2 mt-2">
+                    <div class="flex gap-1">
+                      <img
+                        v-for="i in Number(5)"
+                        src="../assets/images/star.svg"
+                        alt="star"
+                      />
+                    </div>
+                    <span
+                      class="text-[#808080] text-sm font-bold tracking-normal pt-1"
+                    >
+                      (88)
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex justify-center mt-12">
+              <button
+                class="bg-[#DB4444] px-5 py-2.5 rounded-md text-sm text-white tracking-wide"
+                type="button"
+              >
+                View all Products
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bg-white text-black mt-40">
+        <div class="container mx-auto">
+          <div class="flex items-center gap-4">
+            <div class="bg-[#DB4444] w-5 h-12 rounded-md"></div>
+            <h2 class="text-[#DB4444] font-semibold">Categories</h2>
+          </div>
+          <div class="flex justify-between mt-8">
+            <div class="flex items-end gap-16">
+              <h2 class="text-4xl font-semibold tracking-wide pb-1">
+                Browse By Category
+              </h2>
+            </div>
+            <div class="flex items-center gap-3">
+              <button class="bg-[#F5F5F5] p-2 rounded-full" type="button">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-4"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18"
+                  />
+                </svg>
+              </button>
+              <button class="bg-[#F5F5F5] p-2 rounded-full" type="button">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-4"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="mt-10 pb-10 border-b border-[#B3B3B3]">
+            <div class="grid grid-cols-6 gap-6">
+              <div
+                class="border border-[#B3B3B3] flex flex-col justify-center items-center gap-3 py-8 rounded-sm"
+              >
+                <img
+                  class="size-12"
+                  src="../assets/images/phone.png"
+                  alt="phone"
+                />
+                <span>Phones</span>
+              </div>
+              <div
+                class="border border-[#B3B3B3] flex flex-col justify-center items-center gap-3 py-8 rounded-sm"
+              >
+                <img
+                  class="size-12"
+                  src="../assets/images/computer.png"
+                  alt="computer"
+                />
+                <span>Computers</span>
+              </div>
+              <div
+                class="border border-[#B3B3B3] flex flex-col justify-center items-center gap-3 py-8 rounded-sm"
+              >
+                <img
+                  class="size-12"
+                  src="../assets/images/smartwatch.png"
+                  alt="smartwatch"
+                />
+                <span>SmartWatch</span>
+              </div>
+              <div
+                class="border border-[#B3B3B3] flex flex-col justify-center items-center gap-3 py-8 rounded-sm"
+              >
+                <img
+                  class="size-12"
+                  src="../assets/images/camera.png"
+                  alt="camera"
+                />
+                <span>Camera</span>
+              </div>
+              <div
+                class="border border-[#B3B3B3] flex flex-col justify-center items-center gap-3 py-8 rounded-sm"
+              >
+                <img
+                  class="size-12"
+                  src="../assets/images/headphone.png"
+                  alt="headphone"
+                />
+                <span>Headphones</span>
+              </div>
+              <div
+                class="border border-[#B3B3B3] flex flex-col justify-center items-center gap-3 py-8 rounded-sm"
+              >
+                <img
+                  class="size-12"
+                  src="../assets/images/gamepad.png"
+                  alt="gamepad"
+                />
+                <span>Gaming</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bg-white text-black mt-40">
+        <div class="container mx-auto">
+          <div class="flex items-center gap-4">
+            <div class="bg-[#DB4444] w-5 h-12 rounded-md"></div>
+            <h2 class="text-[#DB4444] font-semibold">This Month</h2>
+          </div>
+          <div class="flex justify-between mt-8">
+            <div class="flex items-end gap-16">
+              <h2 class="text-4xl font-semibold tracking-wide pb-1">
+                Best Selling Products
+              </h2>
+            </div>
+            <div class="flex items-center gap-3">
+              <button
+                class="bg-[#DB4444] px-6 py-3 rounded-md text-white tracking-wide"
+                type="button"
+              >
+                View All
+              </button>
+            </div>
+          </div>
+          <div class="mt-10 pb-10 border-b border-[#B3B3B3]">
+            <div class="grid grid-cols-4 gap-6">
+              <div
+                v-for="i in Number(4)"
+                class="bg-white rounded-sm overflow-hidden"
+              >
+                <div class="bg-[#F5F5F5] p-12 relative">
+                  <img
+                    class="w-[150px] object-cover mx-auto"
+                    src="../assets/images/product2.png"
+                    alt="product2"
+                  />
+                  <div class="absolute flex flex-col gap-2 top-3 right-3">
+                    <button class="p-1 rounded-full bg-white" type="button">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="size-6"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                        />
+                      </svg>
+                    </button>
+                    <button class="p-1 rounded-full bg-white" type="button">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="size-6"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z"
+                        />
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                        />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+                <div class="mt-2">
+                  <h3 class="font-bold leading-loose">The north coat</h3>
+                  <div class="flex gap-3 mt-1">
+                    <span class="text-[#DB4444] text-sm font-medium">
+                      $260
+                    </span>
+                    <span
+                      class="text-[#808080] text-sm font-medium line-through"
+                    >
+                      $360
+                    </span>
+                  </div>
+                  <div class="flex items-center gap-2 mt-2">
+                    <div class="flex gap-1">
+                      <img
+                        v-for="i in Number(5)"
+                        src="../assets/images/star.svg"
+                        alt="star"
+                      />
+                    </div>
+                    <span
+                      class="text-[#808080] text-sm font-bold tracking-normal pt-1"
+                    >
+                      (65)
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex justify-center mt-12">
+              <button
+                class="bg-[#DB4444] px-5 py-2.5 rounded-md text-sm text-white tracking-wide"
+                type="button"
+              >
+                View all Products
+              </button>
+            </div>
+          </div>
         </div>
       </section>
     </main>
