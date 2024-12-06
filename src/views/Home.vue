@@ -203,7 +203,7 @@
                   />
                   <span class="mt-2 tracking-widest"> iPhone 14 Series </span>
                 </div>
-                <h1 class="text-5xl font-semibold tracking-wide leading-normal">
+                <h1 class="text-5xl font-semibold tracking-normal leading-snug">
                   Up to 10% <br />
                   off Voucher
                 </h1>
@@ -225,7 +225,11 @@
                   </svg>
                 </button>
               </div>
-              <img src="../assets/images/iphone.png" alt="iphone" />
+              <img
+                class="max-w-xs object-cover mx-auto mt-5"
+                src="../assets/images/iphone.png"
+                alt="iphone"
+              />
             </div>
           </div>
         </div>
@@ -272,8 +276,11 @@
                 </div>
               </div>
             </div>
-            <div class="flex items-center gap-3">
-              <button class="bg-[#F5F5F5] p-2 rounded-full" type="button">
+            <div class="flex items-center gap-3 pt-6">
+              <button
+                class="bg-[#F5F5F5] p-2 rounded-full hover:bg-gray-200 transition-colors"
+                type="button"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -289,7 +296,10 @@
                   />
                 </svg>
               </button>
-              <button class="bg-[#F5F5F5] p-2 rounded-full" type="button">
+              <button
+                class="bg-[#F5F5F5] p-2 rounded-full hover:bg-gray-200 transition-colors"
+                type="button"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
